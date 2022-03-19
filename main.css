@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(194, 206, 218);
+}
+
+#canvas {
+    margin: 10px;
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgb(63, 77, 206);
+}
+
+#div_button {
+    font: 50px "Arial";
+    color: rgb(0, 68, 255);
+}
+
+#button_run {
+    background-color: rgb(146, 242, 255);
+    font: bold 20px "Arial";
+    border: 2px solid rgb(157, 157, 255);
+    margin-bottom: 10px;
+}
+
+#button_run:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
+p, span {
+    font: 15px "arial";
+}
+
+#cv, select {
+    background-color: rgb(221, 248, 252);
+    font: bold 15px "Arial";
+    border: 1px solid rgb(139, 139, 255);
+}
+
+#cv {
+    width: 50px;
+}
+
+select {
+    margin-bottom: 5px;
+}
