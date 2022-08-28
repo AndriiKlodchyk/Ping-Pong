@@ -1,3 +1,3 @@
 # Ping-Pong
 
-Ping-Pong game in JS
+⚽Ping-Pong game in JS
