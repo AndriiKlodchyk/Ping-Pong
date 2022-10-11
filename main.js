@@ -96,7 +96,7 @@ function button_run_inline() {
 
 function draw() {
     let counterValue = document.getElementById("cv").value;
-    let LevelValue = document.getElementById("s_Level").value;
+    let LevelValue = "o_hard"; // document.getElementById("s_Level").value;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = "rgb(86, 196, 148)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
